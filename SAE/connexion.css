@@ -1,0 +1,22 @@
+.wrapper{
+    width: 50%;
+    float: center;
+    margin-left:25%;
+    margin-right: 25%;
+    margin-top:5%; }
+
+h2{
+    background-color: rgb(99, 147, 215);
+    text-align: center;
+    }
+
+a:link 
+    { 
+     text-decoration:none;
+     color: blue;
+    }
+
+html{
+
+        background-color: rgb(207, 218, 170);
+      }

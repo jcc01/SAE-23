@@ -1,0 +1,108 @@
+.menu {
+ text-align: center;
+}
+
+nav  a:hover{
+  background: #d1d1d1;
+}
+
+.menu-item {
+  display: inline-block;
+  color: white;
+  min-width: 180px;
+  line-height: 50px;
+  background: #343434;
+  border-radius: 0%;
+  text-decoration: none;
+}
+
+#div1 {
+  float: center;
+  /*background-color: red;*/
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#titre{
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#desc{
+  font-size: large;
+  font-style: italic;
+}
+
+html{
+  background-color: rgb(207, 218, 170);
+}
+
+
+#tableau{
+  margin-top: 2%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+table,td {
+    text-align: center;
+    border: 1px solid #333;
+}
+
+table{
+  width: 100%;
+}
+
+#bt_radio{
+  text-align: center;
+}
+
+#recherche{
+  margin-top: 2%;
+  text-align: center;
+}
+
+#soumettre{
+  margin-top: 2%;
+}
+
+#soumettre input[type="submit"]
+{
+	/*border: #DDEEFF 1px solid;*/
+	width: 10%;
+}
+
+#soumettre input[type="submit"]:hover
+{
+	background-color: #66CC33;
+	cursor: pointer;
+}
+
+#attention{
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#div_supprimer{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#bt_alea{
+  margin-left: 45%;
+  margin-right: 30%;
+  margin-top: 3%;
+  width: 28%;
+  float:center;
+
+}

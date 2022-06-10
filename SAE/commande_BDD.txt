@@ -1,0 +1,11 @@
+SELECT * FROM `DBVOITURE` ORDER BY MARQUE ASC; #Classer colonne par ordre croissant
+
+SELECT * FROM `DBVOITURE` WHERE `MARQUE` LIKE '%re%' #Recherche avec lettre
+
+DELETE FROM 'DBVOITURE' WHERE MARQUE="Audi" AND MODELE='A3'; #Suprimer voiture en particulier
+
+DELETE FROM 'DBVOITURE' WHERE PUISSANCE < '110'; #Supprimer voiture puissance inferieur à 110 hp
+
+SELECT * FROM DBVOITURE ORDER BY RAND() LIMIT 1;
+
+
